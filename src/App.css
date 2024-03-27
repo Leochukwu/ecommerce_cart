@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Kumbh Sans, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navBar, .menus, .menu, .carts{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    align-items: center;
+    margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navBar{
+    border-bottom: 2px solid hsl(30, 33%, 96%);; 
+    padding-bottom: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.carts img{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.profile_pics{
+    border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li a, li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 100;
+    margin-left: 15px;
+}
+li a:hover{
+    font-weight: 400;
+    padding-bottom: 40px;
+    border-bottom: 2px solid hsl(26, 100%, 55%);; 
+}
+
+.body{
+    display: flex;
+    margin-left: 160px;
+    padding-top: 100px;
+}
+.image1 img{
+    height: 460px;
+    width: 460px;
+    border-radius: 15px;
+}
+
+.image1 img:hover{
+    height: 500px;
+    width: 500px;
+}
+
+.image2 img{
+    height: 90px;
+    width: 90px;
+    border-radius: 15px;
+}
+
+.image2{
+    display: flex;
+    gap: 35px;
+    margin-top: 22px;
+}
+
+.image2 img:hover{
+    opacity: 0.5;
+}
+
+/*PART TWO TWO*/
+.section2{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.parta .title{
+    color: hsl(26, 100%, 55%);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.parta h1{
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.parta .title2{
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.parta h3 span{
+    color: hsl(26, 100%, 55%);
+    font-size: 10px;
+    background-color:hsl(223, 64%, 98%);
+    margin-left: 5px;
+}
+
+.parta h5{
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.cartProperties{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    font-weight: 20px;
+}
+.btn1{
+    width: 100px;
+    height: 40px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.btn2{
+   background-color: hsl(26, 100%, 55%);
+   width: 200px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   column-gap: 10px;
+   justify-content: center;
+   color: hsl(225, 3%, 24%);
+}
+
+.btn2:hover{
+    opacity: 0.5;
+}
+
+.btn1 p:hover{
+ color: hsl(26, 100%, 55%);
 }
